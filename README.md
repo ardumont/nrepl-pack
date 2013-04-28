@@ -8,5 +8,5 @@ A simple pack to override some default emacs-live ones.
 in your .emacs-live.el, add this:
 
 ```el
-(live-add-packs '(nrepl-pack))
+(live-add-packs '("/path/to/nrepl-pack"))
 ```
