@@ -7,7 +7,7 @@
 ;;(setq nrepl-popup-stacktraces nil)
 
 ;; enable stacktrace in repl
-;;(setq nrepl-popup-stacktraces-in-repl nil)
+(setq nrepl-popup-stacktraces-in-repl t)
 
 ;; enable camel case for M-f and M-b
 (add-hook 'nrepl-mode-hook 'subword-mode)
